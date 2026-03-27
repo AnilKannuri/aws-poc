@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: app
-          image: <ECR_URL>
+          image: 843724512447.dkr.ecr.ap-south-1.amazonaws.com/springboot-eks:latest
           ports:
             - containerPort: 8080
